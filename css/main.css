@@ -1805,6 +1805,10 @@ blockquote {
   padding-right: 5px;
 }
 
+/* Hide Blog Section */
+[data-id="blog"] {
+  display: none !important;
+}
 
 
 /* =======================================
