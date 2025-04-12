@@ -17,6 +17,19 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
+    <style>
+      @media (min-width: 768px) {
+        .col-sm-7-5 {
+          width: 62.5%;
+          float: left;
+        }
+        .col-sm-4-5 {
+          width: 37.5%;
+          float: left;
+        }
+      }
+    </style>
+
     <script src="js/modernizr.custom.js"></script>
   </head>
 
@@ -137,9 +150,11 @@
                           <!-- /Text rotation / Subtitle -->
 
                           <h2 class="hp-main-title">Gabriel Mutai</h2>
-                          <p>Praesent sed aliquam arcu, non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam. Duis enim tortor, egestas et felis id, lobortis malesuada magna. Nunc sit amet sagittis nisi, eu semper nisl. Cras ut dictum nisl. Donec tincidunt eget orci.</p><p>Aliquam mollis, leo nec commodo facilisis, turpis lorem dapibus erat, sed consectetur nunc nulla ac elit. Suspendisse dictum id dui mollis auctor. Etiam id sapien neque. Cras nec rhoncus sem. Mauris metus ligula, varius vel iaculis at, pulvinar tincidunt magna.</p>
+                          <p>Hey! I'm Gabriel — a young, multifaceted professional figuring things out one project at a time.</p>
+                          <p>I've worn a few different hats so far. From analytics to entrepreneurship to content creation, I'm constantly chasing the next thing that'll challenge me and help me grow. I love connecting the dots between creativity, strategy, and problem solving, whether that's through building something from scratch, diving into data, or collaborating with others who bring fresh perspectives.</p>
+                          <p>Outside of work, I'm probably excercising, journaling, testing out a random idea, or just enjoying a good bowl of oatmeal. This site is a glimpse into the work I've done and the path I'm carving out.</p>
+                          <p>Thanks for stopping by!</p>
                           <div class="hp-buttons">
-                            <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
                           </div>
                         </div>
                       </div>
@@ -170,11 +185,11 @@
                           <!-- Service Item 1 -->
                           <div class="info-block-w-icon">
                             <div class="ci-icon">
-                              <i class="lnr lnr-store"></i>
+                              <i class="lnr lnr-chart-bars"></i>
                             </div>
                             <div class="ci-text">
-                              <h4>Ecommerce</h4>
-                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                              <h4>Analytics & Data</h4>
+                              <p>Transforming raw data into actionable insights. Specializing in data analysis, visualization, and strategic decision-making to drive business growth and innovation.</p>
                             </div>
                           </div>
                           <!-- /Service Item 1 -->
@@ -182,11 +197,11 @@
                           <!-- Service Item 2 -->
                           <div class="info-block-w-icon">
                             <div class="ci-icon">
-                              <i class="lnr lnr-laptop-phone"></i>
+                              <i class="lnr lnr-magnifier"></i>
                             </div>
                             <div class="ci-text">
-                              <h4>Web Design</h4>
-                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                              <h4>Marketing & Market Research</h4>
+                              <p>Deep diving into market trends and consumer behavior to develop effective marketing strategies that connect brands with their target audiences.</p>
                             </div>
                           </div>
                           <!-- Service Item 2 -->
@@ -200,11 +215,11 @@
                           <!-- Service Item 3 -->
                           <div class="info-block-w-icon">
                             <div class="ci-icon">
-                              <i class="lnr lnr-pencil"></i>
+                              <i class="lnr lnr-cog"></i>
                             </div>
                             <div class="ci-text">
-                              <h4>Copywriter</h4>
-                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                              <h4>Creative Technologist</h4>
+                              <p>Bridging creativity and technology through AI & automation solutions. Developing innovative tools and systems that enhance productivity and user experience.</p>
                             </div>
                           </div>
                           <!-- Service Item 3 -->
@@ -212,11 +227,11 @@
                           <!-- Service Item 4 -->
                           <div class="info-block-w-icon">
                             <div class="ci-icon">
-                              <i class="lnr lnr-flag"></i>
+                              <i class="lnr lnr-pencil"></i>
                             </div>
                             <div class="ci-text">
-                              <h4>Management</h4>
-                              <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                              <h4>Content Creation</h4>
+                              <p>Crafting compelling narratives and engaging content across various platforms. Combining creativity with strategic thinking to deliver impactful messages.</p>
                             </div>
                           </div>
                           <!-- Service Item 4 -->
@@ -227,161 +242,56 @@
                   <!-- /Services Block -->
 
                   <!-- Testimonials Block -->
+                  <!--
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <div class="col-inner ts-25 bs-50">
-                        <!-- Testimonials Block Title -->
                         <div class="block-title">
-                            <h3>Testimonials<span></span></h3>
+                          <h3>Testimonials<span></span></h3>
                         </div>
-                        <!-- /Testimonials Block Title -->
 
-                        <!-- Testimonials Carousel Block -->
-                        <div class="testimonials owl-carousel">
-                          <!-- Testimonial 1 -->
+                        <div class="testimonials owl-carousel" data-autoplay="true" data-autoplay-timeout="5000" data-autoplay-hover-pause="true">
                           <div class="testimonial-item">
-
-                            <!-- Testimonial Content -->
                             <div class="testimonial-content">
                               <div class="testimonial-text">
-                                <p>Nam tempor commodo mi id sodales. Aenean sit amet nibh nec sapien consequat porta a sit amet diam.</p>
+                                <p>"Gabriel's analytical skills and creative approach to problem-solving have been invaluable to our team. His ability to bridge the gap between data and actionable insights is remarkable."</p>
                               </div>
                             </div>            
-                            <!-- /Testimonial Content -->
-
-                            <!-- Testimonial Author -->
                             <div class="testimonial-credits">
-                              <!-- Picture -->
                               <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-2.jpg" alt="Gary Johnson"/>
+                                <img src="images/testimonials/testimonial-1.jpg" alt="Testimonial Author"/>
                               </div>              
-                              <!-- /Picture -->
-                              <!-- Testimonial author information -->
                               <div class="testimonial-author-info">
-                                <p class="testimonial-author">Gary Johnson</p>
-                                <p class="testimonial-firm">Locost Accessories</p>
+                                <p class="testimonial-author">John Smith</p>
+                                <p class="testimonial-firm">MSU Research Foundation</p>
                               </div>
                             </div>
-                            <!-- /Testimonial author information -->  
-
                           </div>
-                          <!-- End of Testimonial 1 -->
 
-                          <!-- Testimonial 2 -->
                           <div class="testimonial-item">
-
-                            <!-- Testimonial Content -->
                             <div class="testimonial-content">
                               <div class="testimonial-text">
-                                <p>Donec eu est vel metus consequat volutpat. Nunc aliquet euismod mauris, a feugiat urna ullamcorper non.</p>
+                                <p>"Working with Gabriel on our automation projects has been a game-changer. His innovative approach to AI implementation has significantly improved our workflow efficiency."</p>
                               </div>
                             </div>            
-                            <!-- /Testimonial Content -->
-
-                            <!-- Testimonial Author -->
                             <div class="testimonial-credits">
-                              <!-- Picture -->
                               <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-1.jpg" alt="Daniel Pringle"/>
+                                <img src="images/testimonials/testimonial-2.jpg" alt="Testimonial Author"/>
                               </div>              
-                              <!-- /Picture -->
-                              <!-- Testimonial author information -->
                               <div class="testimonial-author-info">
-                                <p class="testimonial-author">Daniel Pringle</p>
-                                <p class="testimonial-firm">Rolling Thunder</p>
+                                <p class="testimonial-author">Sarah Johnson</p>
+                                <p class="testimonial-firm">Sawport Technologies</p>
                               </div>
                             </div>
-                            <!-- /Testimonial author information -->  
                           </div>
-                          <!-- End of Testimonial 2 -->
-
-                          <!-- Testimonial 3 -->
-                          <div class="testimonial-item">
-
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-content">
-                              <div class="testimonial-text">
-                                <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque, imperdiet elementum lorem aliquet.</p>
-                              </div>
-                            </div>            
-                            <!-- /Testimonial Content -->
-
-                            <!-- Testimonial Author -->
-                            <div class="testimonial-credits">
-                              <!-- Picture -->
-                              <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-3.jpg" alt="Billy Adams"/>
-                              </div>              
-                              <!-- /Picture -->
-                              <!-- Testimonial author information -->
-                              <div class="testimonial-author-info">
-                                <p class="testimonial-author">Billy Adams</p>
-                                <p class="testimonial-firm">Sagebrush</p>
-                              </div>
-                            </div>
-                            <!-- /Testimonial author information -->  
-                          </div>
-                          <!-- End of Testimonial 3 -->
                         </div>
-                        <!-- /Testimonials Carousel Block -->
                       </div>
                     </div>
                   </div>
+                  -->
                   <!-- /Testimonials Block -->
 
-                  <!-- Clients Block -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="col-inner">
-                        <!-- Clients Block Title -->
-                        <div class="block-title">
-                          <h3>Clients<span></span></h3>
-                        </div>
-                        <!-- /Clients Block Title -->
 
-                        <!-- Clients Carousel Block -->
-                        <div class="clients owl-carousel">
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-7.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-6.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-5.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-4.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-3.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-2.png" alt="Logo">
-                            </a>
-                          </div>
-                          <div class="client-block">
-                            <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-1.png" alt="Logo">
-                            </a>
-                          </div>  
-                        </div>
-                        <!-- /Clients Carousel Block -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /Clients Block -->
                 </div>
               </div>
             </section>
@@ -397,7 +307,7 @@
 
                 <div class="section-content">
                   <div class="row">
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-xs-12 col-sm-7-5">
                       <div class="col-inner bs-30">
                         <div class="block-title">
                             <h3>Education</h3>
@@ -408,7 +318,7 @@
                             <div class="left-part">
                               <h5 class="item-period">2025</h5>
                               <span class="item-company">Michigan State University
-								College of Natural Science</span>
+                                College of Natural Science</span>
                             </div>
                             <div class="divider"></div>
                             <div class="right-part">
@@ -421,44 +331,43 @@
                             <div class="left-part">
                               <h5 class="item-period">2025</h5>
                               <span class="item-company">Michigan State University
-								Burgess Institute</span>
+                                Burgess Institute</span>
                             </div>
                             <div class="divider"></div>
                             <div class="right-part">
                               <h4 class="item-title">Entrepreneurship & Innovation</h4>
                               <p>Minor in Entrepreneurship & Innovation. Coursework included two recorded E&I experiences,
-								internship experience, and participation within the Entreprenuerial space within campus.</p>
+                                internship experience, and participation within the Entrepreneurial space within campus.</p>
                             </div>
                           </div>
                         </div>
 
                         <div class="block-title">
-                            <h3>Experience<span></span></h3>
+                            <h3>Experience</h3>
                         </div>
-
 
                         <div class="timeline timeline-second-style clearfix">
                           <div class="timeline-item clearfix">
                             <div class="left-part">
-                              <h5 class="item-period">Jan 2025 - Current</h5>
+                              <h5 class="item-period">Jan 2025 - Apr 2025</h5>
                               <span class="item-company">MSU Research Foundation</span>
                             </div>
                             <div class="divider"></div>
                             <div class="right-part">
                               <h4 class="item-title">CADE Intern</h4>
-                              <p>Assisted in running the FinTech Conquer Accelerator program, scheduled and organized meetings for founders. Completed assigned tasks such as market research and data analysis from the companies attending. </p>
+                              <p>Assisted in running the FinTech Conquer Accelerator program, scheduled and organized meetings for founders. Completed assigned tasks such as market research and data analysis from the companies attending.</p>
                             </div>
                           </div>
 
                           <div class="timeline-item clearfix">
                             <div class="left-part">
-                              <h5 class="item-period">Jan 2025 - Present</h5>
+                              <h5 class="item-period">Jan 2025 - Apr 2025</h5>
                               <span class="item-company">Sawport</span>
-                                    </div>
+                            </div>
                             <div class="divider"></div>
                             <div class="right-part">
                               <h4 class="item-title">Technology Intern</h4>
-                              <p>Coordinated and supervised two other interns through the Service Organization Control (SOC) 2 compliance. Implemented new techniques to the customer discovery process leading to an increase in target contact’s accuracy.</p>
+                              <p>Coordinated and supervised two other interns through the Service Organization Control (SOC) 2 compliance. Implemented new techniques to the customer discovery process leading to an increase in target contact's accuracy.</p>
                             </div>
                           </div>
 
@@ -466,8 +375,8 @@
                             <div class="left-part">
                               <h5 class="item-period">Aug 2022 - May 2025</h5>
                               <span class="item-company">Michigan State
-								          IM West Facilities</span>
-                                    </div>
+                                IM West Facilities</span>
+                            </div>
                             <div class="divider"></div>
                             <div class="right-part">
                               <h4 class="item-title">Student Building Supervisor</h4>
@@ -478,66 +387,57 @@
                       </div>
                     </div>
 
-     <div class="section-content">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="col-inner ts-20">
-            <div class="block-title">
-              <h3>Coursework</h3>
-            </div>
-
-            <div class="skills-list text-left">
-              <p><strong>Computational Modeling & Data Analysis</strong></p>
-			  <p><strong>Neuromarketing & Consumer Decisions</strong></p>
-			  <p><strong>Digital Business and Commerce</strong></p>
-			  <p><strong>Statistics for Scientists</strong></p>
-			  <p><strong>Brain and Behavior</strong></p>
-			  <p><strong>Management Skills</strong></p>
-            </div>
+                    <div class="col-xs-12 col-sm-4-5">
+                      <div class="col-inner">
+                        <div class="block-title">
+                          <h3>Coursework</h3>
                         </div>
-						  
+
+                        <div class="skills-list text-left">
+                          <p><strong>Computational Modeling & Data Analysis</strong></p>
+                          <p><strong>Neuromarketing & Consumer Decisions</strong></p>
+                          <p><strong>Digital Business and Commerce</strong></p>
+                          <p><strong>Statistics for Scientists</strong></p>
+                          <p><strong>Brain and Behavior</strong></p>
+                          <p><strong>Management Skills</strong></p>
+                        </div>
+
                         <div class="block-title ts-10">
-                          <h3>Coding Skills<span></span></h3>
+                          <h3>Coding Skills</h3>
                         </div>
-
 
                         <div class="skills-info skills-second-style">
-                          <!-- Skill 5 -->
                           <div class="clearfix">
                             <h4>Python</h4>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-3"></div>
                           </div>
-                          <!-- /Skill 5 -->
 
-                          <!-- Skill 6 -->
                           <div class="clearfix">
                             <h4>SQL</h4>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-4"></div>
                           </div>
-                          <!-- /Skill 6 -->
 
-                          <!-- Skill 7 -->
                           <div class="clearfix">
                             <h4>R</h4>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-4"></div>
                           </div>
-                          <!-- /Skill 7 -->
 
-                          <!-- Skill 9 -->
                           <div class="clearfix">
                             <h4>HTML / CSS</h4>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-1"></div>
                           </div>
-                          <!-- /Skill 9 -->
+                        </div>
 
+                        <div class="block-title ts-30" style="text-align: right;">
+                          <a href="documents/Mutai Resume DA.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
                         </div>
                       </div>
                     </div>
@@ -545,8 +445,63 @@
 
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
-                      <div class="col-inner ts-30">
-                        <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+                      <div class="col-inner">
+                        <div class="block-title">
+                          <h3>Software</h3>
+                        </div>
+                        <!-- Clients Carousel Block -->
+                        <div class="clients owl-carousel" data-autoplay="true" data-autoplay-timeout="0" data-autoplay-speed="2000" data-autoplay-hover-pause="true" data-loop="true" data-items="5" data-margin="30" data-dots="false" data-nav="false">
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Microsoft 365">
+                              <img src="images/clients/microsoft365.png" alt="Microsoft 365">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Slack">
+                              <img src="images/clients/slack.png" alt="Slack">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Tableau">
+                              <img src="images/clients/tableau.png" alt="Tableau">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="DaVinci Resolve">
+                              <img src="images/clients/davinci.png" alt="DaVinci Resolve">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Ableton">
+                              <img src="images/clients/ableton.png" alt="Ableton">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="OpenAI">
+                              <img src="images/clients/openai.png" alt="OpenAI">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Cursor">
+                              <img src="images/clients/cursor.png" alt="Cursor">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="After Effects">
+                              <img src="images/clients/aftereffects.png" alt="After Effects">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Lightroom">
+                              <img src="images/clients/lightroom.png" alt="Lightroom">
+                            </a>
+                          </div>
+                          <div class="client-block">
+                            <a href="#" target="_blank" title="Photoshop">
+                              <img src="images/clients/photoshop.png" alt="Photoshop">
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

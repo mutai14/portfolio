@@ -1196,7 +1196,7 @@ blockquote {
   text-align: center;
   padding: 5px 0;
   margin-bottom: 30px;
-  opacity: .4;
+  opacity: 0.8;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1209,6 +1209,13 @@ blockquote {
   width: 100%;
   max-width: 100px;
 }
+
+.clients.owl-carousel .owl-item img {
+  width: 70px; /* Set a uniform width */
+  height: 70px; /* Set a uniform height */
+  object-fit: contain; /* Ensures the entire logo fits */
+}
+
 /* /Clients */
 
 .testimonials.owl-carousel .owl-nav .owl-prev,
